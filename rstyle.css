@@ -1,0 +1,140 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  background :linear-gradient(195deg,hsl(136,65%,51%),rgb(25, 192, 114));;
+}
+
+
+.wrapper{
+ 
+  max-width: 430px;
+  width: 100%;
+  height: auto;
+ 
+ background: #fff;
+  padding: 34px;
+   border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.wrapper h2{
+  
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(136, 97%, 49%)
+}
+
+
+
+.wrapper form{
+  margin-top: 30px;
+}
+
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+
+form .input-box input{
+    height: 100%;
+  width: 100%;
+  
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(44, 39, 39);
+  border: 1.5px solid #b9b6b6;
+  border-bottom-width: 2.5px;
+border-radius: 6px;
+  transition: all 0.6s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: hsl(136, 97%, 49%);
+}
+
+
+form .policy{
+  display: flex;
+  align-items: center;
+}
+
+
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+
+
+.btn input{
+  color: #fff;
+  letter-spacing: 1px;
+   border-width: 0px;
+   background-image: linear-gradient(120deg,hsl(136,65%,51%),hsl(192,70%,51%));
+  cursor: pointer;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+.btn input:hover{
+  background: hsl(136, 97%, 49%);
+  border-color: hsl(136, 97%, 49%);
+  background-image: linear-gradient(120deg,hsl(136, 97%, 49%),rgb(85, 179, 202));
+  border-width: 1px;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: right;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+
+
+.image>img{
+    width: 60px;
+    height: 60px;
+    margin-left: 9rem;
+}
+
+
+
+.input-box textarea{
+    height: 100%;
+  width: 100%;
+  
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(44, 39, 39);
+  border: 1.5px solid #b9b6b6;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.6s ease;
+  height: 52px;
+  margin: 18px 0;
+}
